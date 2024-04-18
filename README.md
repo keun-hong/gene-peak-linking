@@ -1,1 +1,1 @@
-# gene-linking
+# gene-peak-linking
