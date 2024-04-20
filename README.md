@@ -1,6 +1,6 @@
 # Code for correlation-based gene-peak linking analysis
 Integrating the activity of regulatory elements with gene expression is essential for understanding how the genome operates. Therefore, pairing genes that are expressed (as shown by RNA-seq) with peaks identified from ChIP-seq, ATAC-seq, etc., is important.<br>
-Here, I have uploaded Python code that performs a correlation-based gene-peak linking analysis. The method of analysis is derived from [MR Corces et al., Science 2018](https://www.science.org/doi/10.1126/science.aav1898)<br>
+Here, I have uploaded Python code that performs a correlation-based gene-peak linking analysis. The method of analysis is derived from [**MR Corces et al., Science 2018**](https://www.science.org/doi/10.1126/science.aav1898)<br>
 <img src="https://github.com/keun-hong/gene-peak-linking/assets/43947916/a4b27b93-d2fd-44cd-afdd-b1cc9d898b13" width="500"><be>
 
 ## Overview of the analysis process
