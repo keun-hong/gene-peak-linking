@@ -7,5 +7,26 @@ Here, I have uploaded Python code that performs a correlation-based gene-peak li
 <img src="https://github.com/keun-hong/gene-peak-linking/assets/43947916/2ab19b00-afc9-4f5d-8d22-9bac87c867f1" width="700"><br>
 
 # Usage
+```python 
+Usage: gene-peak-linking.py <Exp> <Signal> <Type> <Range> <out_prefix> [options]
+        Exp:    expression table (x-axis: gene or transcript IDs / y-axis: sample IDs)
+        Signal: signal table (x-axis: peak IDs / y-axis: label, chr, start, end and sample IDs)
+        Type:   gene or transcript
+        Range:  range limit from tss which connect gene and peak (ex, 5000)
+        out_prefix: prefix of output file name
 
+Options:
+  -h, --help            show this help message and exit
+  -p LENGTH             promoter length ex) up,down (default = 1000,100)
+  -z ZERO_FILTER        Cutoff ratio of degree containing non-zero in row
+                        lines (default = 0.2)
+  -v VARIANCE           Cutoff ratio of high variance range 0 - 1 (default =
+                        0.75)
+  --ae=ADD_RNA_VALUE    Add specific expression value (default = 1)
+  --as=ADD_ATAC_VALUE   Add specific signal value (default = 0)
+  --null=NULL_MODEL_FILE
+                        Null model file (default = False)
+  -n NUM_GENES          # of peaks used in null model (default = 500)
+  -t THREADS            # of threads (default = 1)
+```
 
