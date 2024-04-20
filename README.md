@@ -7,7 +7,7 @@ Here, I have uploaded Python code that performs a correlation-based gene-peak li
 <img src="https://github.com/keun-hong/gene-peak-linking/assets/43947916/2ab19b00-afc9-4f5d-8d22-9bac87c867f1" width="700"><br>
 
 # Usage
-```bash
+```tex
 usage: gene-peak-linking.py <Exp> <Signal> <Type> <Range> <out_prefix> [options]
 	Exp:    expression table (x-axis: gene or transcript IDs / y-axis: sample IDs)
 	Signal: signal table (x-axis: peak IDs / y-axis: label, chr, start, end and sample IDs)
