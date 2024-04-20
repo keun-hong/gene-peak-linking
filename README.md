@@ -6,7 +6,20 @@ Here, I have uploaded Python code that performs a correlation-based gene-peak li
 ## Overview of the analysis process
 <img src="https://github.com/keun-hong/gene-peak-linking/assets/43947916/2ab19b00-afc9-4f5d-8d22-9bac87c867f1" width="700"><br>
 
-# Usage
+## Required packages or tools
+```bash
+# 1. Python packages
+pip install numpy pandas scipy rpy2
+
+# 2. Bedtools
+sudo apt-get install bedtools
+```
+## Input files
+1. Expression table
+2. Peak and signal table
+Please check the test input files
+
+## Usage
 ```tex
 usage: gene-peak-linking.py <Exp> <Signal> <Type> <Range> <out_prefix> [options]
 	Exp:    expression table (x-axis: gene or transcript IDs / y-axis: sample IDs)
