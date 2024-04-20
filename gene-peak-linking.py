@@ -1,5 +1,3 @@
-#!/usr/bin/python3
-
 #######################################################################
 # 
 # Made by KeunHong
@@ -282,10 +280,10 @@ def write_output (list, out_file_name):
 ### Main code ----------------------------------------------------------
 if __name__ == '__main__':
 
-	usage = """usage: %prog <Exp> <Signal> <Gene> <Range> <out_prefix>[options]
+	usage = """usage: %prog <Exp> <Signal> <Type> <Range> <out_prefix>[options]
 	Exp:    expression table (x-axis: gene or transcript IDs / y-axis: sample IDs)
 	Signal: signal table (x-axis: peak IDs / y-axis: label, chr, start, end and sample IDs)
-	Gene:   gene ID type (gene or transcript)
+	Type:   gene or transcript
 	Range:  range limit from tss which connect gene and peak (ex, 5000)
 	out_prefix: prefix of output file name
 	"""
