@@ -17,7 +17,7 @@ sudo apt-get install bedtools
 ## Input files
 1. Expression table
 2. Peak and signal table
-3. Bed formatted file including TSS information
+3. BED-formatted file with TSS information of genes
 
 Please check the test input files
 
