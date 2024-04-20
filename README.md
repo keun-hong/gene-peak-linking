@@ -1,1 +1,1 @@
-# gene-peak-linking
+# Correlation-based gene-peak linking tool
